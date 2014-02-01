@@ -1,4 +1,4 @@
-=== WP Viewer Log ===
+=== Add Dashboard Columns ===
 Contributors: 23r9i0
 Donate link:
 Tags: dashboard, widget, dashboard columns, columns
