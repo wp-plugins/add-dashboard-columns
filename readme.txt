@@ -4,7 +4,7 @@ Donate link:
 Tags: dashboard, widget, dashboard columns, columns
 Requires at least: 3.8
 Tested up to: 3.8.1
-Stable tag: 0.1
+Stable tag: 0.2.1
 License: GPL/MIT
 
 Enable Dashboard Columns in WordPress after version 3.8
