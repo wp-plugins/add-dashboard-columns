@@ -1,10 +1,10 @@
-=== WP Viewer Log ===
+=== Add Dashboard Columns ===
 Contributors: 23r9i0
 Donate link:
 Tags: dashboard, widget, dashboard columns, columns
 Requires at least: 3.8
 Tested up to: 3.8.1
-Stable tag: 0.2
+Stable tag: 0.1
 License: GPL/MIT
 
 Enable Dashboard Columns in WordPress after version 3.8
@@ -19,6 +19,8 @@ Enable Dashboard Columns in WordPress after version 3.8
 * Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+= 0.2.1 =
+* fix Readme.txt
 = 0.2 =
 * Set Default Columns in three
 * Only load CSS in index
