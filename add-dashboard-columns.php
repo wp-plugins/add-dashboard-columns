@@ -7,7 +7,8 @@ Author: Sergio P.A. ( 23r9i0 )
 Version: 0.2.1
 Author URI: http://dsergio.com/
 */
-/*  Copyright 2014  Sergio Prieto Alvarez  ( email : info@dsergio.com )
+/*
+		Copyright 2014  Sergio Prieto Alvarez  ( email : info@dsergio.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General License as published by
@@ -25,7 +26,7 @@ Author URI: http://dsergio.com/
 */
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-add_action( 'admin_head-index.php', 'add_dashboard_columns' );	
+add_action( 'admin_head-index.php', 'add_dashboard_columns' );
 function add_dashboard_columns() {
     add_screen_option( 'layout_columns', array( 'max' => 4, 'default' => 3 ) );
 }
