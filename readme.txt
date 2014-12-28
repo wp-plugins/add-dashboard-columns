@@ -3,7 +3,7 @@ Contributors: 23r9i0
 Donate link:
 Tags: dashboard, widget, dashboard columns, columns
 Requires at least: 3.8
-Tested up to: 3.8.1
+Tested up to: 4.1
 Stable tag: 0.2.1
 License: GPL/MIT
 
