@@ -3,7 +3,7 @@
  * Plugin Name: Add Dashboard Columns
  * Plugin URI: http://wordpress.org/plugins/add-dashboard-columns/
  * Description: Enable Dashboard Columns in WordPress after version 3.8
- * Version: 1.1
+ * Version: 1.2
  * Author: Sergio P.A. ( 23r9i0 )
  * Author URI: http://dsergio.com/
  * License: GPL2
@@ -28,12 +28,12 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function add_dashboard_columns() {
-	add_screen_option( 'layout_columns', array( 'max' => 4, 'default' => 3 ) );
+    add_screen_option( 'layout_columns', array( 'max' => 4, 'default' => 3 ) );
 }
 add_action( 'admin_head-index.php', 'add_dashboard_columns' );
 
 function add_dashboard_columns_style( $hook ) {
-	if ( 'index.php' === $hook )
-		wp_enqueue_style( 'add-dashboard-columns', plugins_url( 'admin/css/add-dashboard-columns.min.css', __FILE__ ), array(), '1.0' );
+    if ( 'index.php' === $hook )
+        wp_enqueue_style( 'add-dashboard-columns', plugins_url( 'admin/css/add-dashboard-columns.min.css', __FILE__ ), array(), '1.0' );
 }
 add_action( 'admin_enqueue_scripts', 'add_dashboard_columns_style' );
