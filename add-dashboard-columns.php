@@ -34,6 +34,6 @@ add_action( 'admin_head-index.php', 'add_dashboard_columns' );
 
 function add_dashboard_columns_style( $hook ) {
     if ( 'index.php' === $hook )
-        wp_enqueue_style( 'add-dashboard-columns', plugins_url( 'admin/css/add-dashboard-columns.min.css', __FILE__ ), array(), '1.0' );
+        wp_enqueue_style( 'add-dashboard-columns', plugins_url( 'admin/css/add-dashboard-columns.min.css', __FILE__ ), array(), '1.2' );
 }
 add_action( 'admin_enqueue_scripts', 'add_dashboard_columns_style' );
